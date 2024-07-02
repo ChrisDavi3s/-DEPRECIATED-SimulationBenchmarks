@@ -24,3 +24,14 @@ energy_metrics, forces_metrics, stress_metrics = Comparer.compare(frames, vasp_m
 Comparer.print_metrics(energy_metrics, forces_metrics, stress_metrics)
 Comparer.plot(frames, vasp_method, nequip_method, params, energy_metrics, forces_metrics, stress_metrics)
 ```
+
+Energies:
+![image](https://github.com/ChrisDavi3s/SimulationBenchmarks/assets/9642076/37a093cb-70b9-4fdc-9697-c567d455b952)
+
+Forces:
+![image](https://github.com/ChrisDavi3s/SimulationBenchmarks/assets/9642076/f0daa71b-5038-4b39-be8c-39aac25e1450)
+
+Stresses:
+![image](https://github.com/ChrisDavi3s/SimulationBenchmarks/assets/9642076/2086c236-6dac-4281-aae4-d2b18514b257)
+
+All come with appropriate box plots.
